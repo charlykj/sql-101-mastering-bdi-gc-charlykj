@@ -31,3 +31,9 @@ Each semester we explore a complete path, including:
 ---
 
 ## 🗂️ Repository Structure
+
+'''sql
+ALTER TABLE smarth_health.departamentos
+ADD COLUMN fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+
+
