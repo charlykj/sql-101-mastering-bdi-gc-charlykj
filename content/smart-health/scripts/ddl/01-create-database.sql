@@ -5,7 +5,7 @@
 -- RUN IN POSTGRES - POSTGRES
 
 -- 01. Create user
-CREATE USER carlos WITH PASSWORD '******';
+CREATE USER sm_admin WITH PASSWORD '****';
 
 -- 02. Create database (with ENCODING= 'UTF8', TEMPLATE=Template0, OWNER: music_admin)
 CREATE DATABASE smarthdb WITH 
@@ -17,3 +17,5 @@ CREATE DATABASE smarthdb WITH
 
 -- 03. Grant privileges
 GRANT ALL PRIVILEGES ON DATABASE smarthdb TO sm_admin;
+
+
